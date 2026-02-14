@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title>Documentation du site</title>
+<style>
+    /* Reset box-sizing for consistency */
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #1a1210; /* Fond très sombre, style théâtre */
+        color: #f4e9dc; /* Couleur beige clair */
+        font-family: 'Georgia', serif; /* Police classique élégante */
+        margin: 40px auto;
+        max-width: 700px;
+        padding: 20px 30px;
+        line-height: 1.6;
+        border: 3px solid #b94e48; /* Bordure rouge bordeaux */
+        border-radius: 15px;
+        box-shadow: 0 0 25px 3px rgba(185, 78, 72, 0.7);
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        text-align: center;
+        margin-bottom: 25px;
+        color: #e94e1b; /* Rouge théâtre vif */
+        text-shadow: 2px 2px 4px #3a1f18;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-left: 6px solid #b94e48;
+        padding-left: 15px;
+        color: #d25c3a;
+        text-shadow: 1px 1px 2px #311b16;
+        font-weight: 700;
+    }
+
+    p, ul {
+        font-size: 1.1rem;
+        color: #f4e9dc;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    strong {
+        color: #ff6333;
+        text-shadow: 1px 1px 1px #502a1b;
+    }
+
+    /* Effet subtil pour liens éventuels */
+    a {
+        color: #e94e1b;
+        text-decoration: none;
+        border-bottom: 1px solid #e94e1b;
+        transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    a:hover {
+        color: #ff8c55;
+        border-color: #ff8c55;
+    }
+</style>
+</head>
+<body>
+    <h1>Documentation rapide</h1>
+    <h2>1. Inscription</h2>
+    <p>Visitez la page d'inscription et remplissez tous les champs requis pour créer un compte.</p>
+
+    <h2>2. Connexion</h2>
+    <p>Entrez votre email et mot de passe pour accéder à votre compte.</p>
+
+    <h2>3. Rôles</h2>
+    <ul>
+        <li><strong>Admin</strong> : peut consulter la liste des inscrits, exporter PDF/Excel, gérer les événements.</li>
+        <li><strong>Visiteur</strong> : peut consulter les événements et s’inscrire.</li>
+    </ul>
+
+    <h2>4. Export des données</h2>
+    <p>L’admin peut exporter la liste des utilisateurs en format PDF ou Excel depuis le tableau de bord.</p>
+</body>
+</html>
